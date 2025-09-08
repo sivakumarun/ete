@@ -69,8 +69,8 @@ const AssignmentResults = ({ trainer, onReset }) => {
           <ul>
             <li>Please arrive at your assigned room 15 minutes before the session</li>
             <li>Bring necessary materials for your topic presentation</li>
-            <li>Your assignment is final and cannot be changed</li>
-            <li>Contact the administrator if you have any questions</li>
+            <li>Your topic is final and cannot be changed</li>
+            <li>Contact your ATM if you have any questions</li>
           </ul>
         </div>
 
@@ -91,14 +91,14 @@ const AssignmentResults = ({ trainer, onReset }) => {
           </button>
         </div>
 
-        <div className="qr-section">
-          <div className="qr-placeholder">
-            <div className="qr-code">
-              <div className="qr-pattern"></div>
-            </div>
-            <p>Scan to view assignment details</p>
-          </div>
-        </div>
+{/*         <div className="qr-section"> */}
+{/*           <div className="qr-placeholder"> */}
+{/*             <div className="qr-code"> */}
+{/*               <div className="qr-pattern"></div> */}
+{/*             </div> */}
+{/*             <p>Scan to view assignment details</p> */}
+{/*           </div> */}
+{/*         </div> */}
       </div>
 
       <div className="print-only assignment-ticket">
