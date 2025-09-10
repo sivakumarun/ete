@@ -1,10 +1,11 @@
 import React from 'react';
 import './Navigation.css';
 
+
 const Navigation = ({ currentView, setCurrentView, onAdminAccess, isAdminAuthenticated, onAdminLogout }) => {
   const navItems = [
     { key: 'form', label: 'New Assignment', icon: '👤' },
-    { key: 'all-results', label: 'All Results', icon: '📊' }
+    /* { key: 'all-results', label: 'All Results', icon: '📊' } */
   ];
 
   const handleAdminClick = () => {
