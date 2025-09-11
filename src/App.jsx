@@ -12,27 +12,30 @@ import './App.css';
 // Topic pools for different categories
 const TOPIC_POOLS = {
   banca_rookie: [
-    'Customer Service Excellence', 'Banking Regulations', 'Digital Banking Fundamentals',
-    'Sales Techniques', 'Risk Management Basics', 'Customer Onboarding Process',
-    'Financial Literacy', 'Product Knowledge', 'Compliance Training', 'Communication Skills'
+    'Simply Save Card', 'Simply Click Card', 'Balance Transfer and Flexipay', 'Pulse Card',
+    'Basic of Credit Card', 'Grooming', 'SBI Card Introduction', 'SURROGATES : FD/ SAVINGS/  HOME LOAN/CSP',
+    'KYC POLICY', 'Add on'
   ],
   banca_vintage: [
-    'Advanced Banking Products', 'Market Analysis', 'Investment Advisory',
-    'Regulatory Compliance', 'Leadership Skills', 'Strategic Planning',
-    'Advanced Risk Assessment', 'Portfolio Management', 'Customer Retention',
-    'Digital Transformation'
+    'Secured Surrogate', 'Happy Home Loan/Wealth', 'CSP/Kuber', 'M1 - Approaching & Need Analysis',
+    'M1 - Presentation Skills', 'M1 - Objection Handling & Closing Skills', 'M2 - Verification Decline',
+    'M2 - Policy Decline', 'M2 - Fraud Decline', 'M2 - CIBIL, Underwriting & Dedupe Declines',
+    'M12 - Goal Setting Exercise', 'M12 - Prospecting Right', 'M12 - Documenting Right',
+    'Major RTB Reasons & Prevention Methods', 'Product - Elite Card', 'Product - Aurum Card',
+    'Product - Prime Card', 'Product - Pulse Card', 'Yono Sprint Process', 'INB and INB Error Codes',
+    'Yono BRE Journey'
   ],
   retail_rookie: [
-    'Retail Sales Basics', 'Customer Interaction', 'POS Systems',
-    'Inventory Management', 'Visual Merchandising', 'Cash Handling',
-    'Product Presentation', 'Store Operations', 'Customer Complaints',
-    'Team Collaboration'
+    'Basics of credit card', 'Simply Click', 'BPCL Octane', 'Prevention of Mis Selling',
+    'Top 3 Surrogates', 'Mobile QDE (M0)', 'Grooming', 'Add on card', 'Prospecting (M1)',
+    'Value Added Service – Flexipay & Balance Transfer'
   ],
   retail_vintage: [
-    'Advanced Retail Strategies', 'Team Leadership', 'Profit Optimization',
-    'Customer Analytics', 'Store Management', 'Supply Chain Basics',
-    'Performance Metrics', 'Training & Development', 'Quality Assurance',
-    'Innovation in Retail'
+    'DIGI MID & E-sign', 'Importance of Right Mobile QDE (M0)', 'V Declines – V1 & V2', 'V Declines – V3 & V4',
+    'V Declines – V13/V14 & V17', 'Policy Declines', 'Fraud Declines', 'Right Prospecting', 'Top 3 Surrogates',
+    'Surrogates - Salaried', 'Surrogates - Self Employed', 'Add on card', 'Objection handling',
+    'Product pitching (M1)', 'Aurum', 'Elite Card', 'Goal setting – BRE (M12)', 'KYC Policy', 'Grooming',
+    'Reliance Prime', 'BPCL Octane', 'TATA Neu Infinity', 'VAS – Flexipay & Balance Transfer'
   ]
 };
 

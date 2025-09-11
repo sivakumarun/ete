@@ -256,20 +256,20 @@ const AdminDashboard = ({ assignments = [] }) => {
             Export to Excel
           </CSVLink>
 
-          <button
-            className="refresh-btn"
-            onClick={() => window.location.reload()}
-          >
-            Refresh Data
-          </button>
+{/*           <button */}
+{/*             className="refresh-btn" */}
+{/*             onClick={() => window.location.reload()} */}
+{/*           > */}
+{/*             Refresh Data */}
+{/*           </button> */}
 
-          <button
-            className="clear-all-btn"
-            onClick={openClearConfirm}
-            disabled={assignments.length === 0}
-          >
-            Clear All Data
-          </button>
+{/*           <button */}
+{/*             className="clear-all-btn" */}
+{/*             onClick={openClearConfirm} */}
+{/*             disabled={assignments.length === 0} */}
+{/*           > */}
+{/*             Clear All Data */}
+{/*           </button> */}
         </div>
       </div>
 
@@ -290,7 +290,7 @@ const AdminDashboard = ({ assignments = [] }) => {
                 <th>Topic</th>
                 <th>Room</th>
                 <th>Assigned At</th>
-                <th>Actions</th>
+{/*                 <th>Actions</th> */}
               </tr>
             </thead>
             <tbody>
@@ -318,13 +318,13 @@ const AdminDashboard = ({ assignments = [] }) => {
                       <small>{assignment.assignedAt ? new Date(assignment.assignedAt).toLocaleTimeString() : ''}</small>
                     </td>
                     <td className="actions-cell">
-                      <button
-                        className="delete-btn"
-                        onClick={() => openDeleteConfirm(assignment)}
-                        title="Delete Assignment"
-                      >
-                        Delete
-                      </button>
+{/*                       <button */}
+{/*                         className="delete-btn" */}
+{/*                         onClick={() => openDeleteConfirm(assignment)} */}
+{/*                         title="Delete Assignment" */}
+{/*                       > */}
+{/*                         Delete */}
+{/*                       </button> */}
                     </td>
                   </tr>
                 ))
